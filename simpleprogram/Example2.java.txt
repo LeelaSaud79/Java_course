@@ -1,0 +1,18 @@
+import java.util.*;
+class Example2 {
+public static void main(String[] args)
+{
+String name, address;
+System.out.println("enter your Name  and address:");
+Scanner sc = new Scanner(System.in);
+
+name = sc.next();
+
+// System.out.print("enter your Address :");
+address = sc.next();
+
+System.out.print("name="+name);
+System.out.print("address="+address);
+
+}
+}
