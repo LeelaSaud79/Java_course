@@ -5,7 +5,7 @@ import java.io.*;
 import java.net.*;
 public class MyServer {
 
-    public static void main(String[] args) {
+      public static void main(String[] args) {
        try{
           ServerSocket ss =new ServerSocket(1111);
        Socket s = ss.accept();
