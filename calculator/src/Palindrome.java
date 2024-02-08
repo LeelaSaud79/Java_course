@@ -4,6 +4,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Palindrome extends JFrame {
+    
+    +
 
     public static void main(String[] args) {
         Palindrome frame = new Palindrome();
